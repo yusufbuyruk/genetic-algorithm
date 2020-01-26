@@ -1,5 +1,5 @@
 # GeneticAlgorithm
-genetic algorithm for warehouse location problem
+Genetic Algorithm for Warehouse Location Problem
 
 Developed by Yusuf Buyruk.
 
