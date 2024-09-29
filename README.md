@@ -27,3 +27,16 @@ The objective is to minimize the total cost, which consists of both the setup co
 
 ![Warehouse Location](readme-images/warehouse-location.jpg.png)
 
+This represents the Warehouse Location Problem (WLP), where:
+
+- **N** is the set of warehouses.
+- **M** is the set of customers.
+- **a_w** is the set of customers assigned to warehouse **w**.
+- **s_w** is the setup cost for warehouse **w**.
+- **t_cw** is the transportation cost of customer **c** from warehouse **w**.
+- **d_c** is the demand of customer **c**.
+- **cap_w** is the capacity of warehouse **w**.
+
+The goal is to minimize the total cost, subject to the constraints of warehouse capacities and customer assignments.
+
+
