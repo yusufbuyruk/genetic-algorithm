@@ -56,3 +56,23 @@ The output has two lines:
 1. The first line contains one value: *obj*. *obj* is the cost of the customer-warehouse assignment (i.e., the objective value) as a real number.
 2. The second line is a list of `|M|` values in *N* – this represents the mapping of customers to warehouses.
 
+### Input Example
+```
+3 4
+100 100.123
+100 100.456
+500 100.789
+50
+100.1 200.2 2000.3
+50
+100.4 200.5 2000.6
+75
+200.7 100.8 2000.9
+75
+200.10 200.11 100.12
+```
+### Output Example
+```
+1002.888
+1 1 0 2
+```
