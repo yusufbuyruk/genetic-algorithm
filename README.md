@@ -39,4 +39,11 @@ This represents the Warehouse Location Problem (WLP), where:
 
 The goal is to minimize the total cost, subject to the constraints of warehouse capacities and customer assignments.
 
+### Data Format
+
+The input consists of \(|N| + 2|M| + 1\) lines. The first line contains two numbers, \(|N|\) followed by \(|M|\). 
+
+The first line is followed by \(|N|\) lines, where each line represents a warehouse capacity \(cap_w\) and setup cost \(s_w\).
+
+The last \(2|M|\) lines capture the customer information. Each customer block begins with a line containing one number, the customer’s demand \(d_c\). The following line has \(|N|\) values, one for each warehouse. These values capture the cost to service that customer from each warehouse, \(t_cw\).
 
