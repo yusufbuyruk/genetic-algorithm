@@ -25,4 +25,5 @@ Lastly, all customers must be served by exactly one warehouse. Let `a_w` be a se
 
 The objective is to minimize the total cost, which consists of both the setup cost and the transportation cost from warehouses to customers. The problem can be formally expressed as:
 
+![Warehouse Location](readme-images/warehouse-location.jpg.png)
 
