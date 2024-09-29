@@ -76,3 +76,12 @@ The output has two lines:
 1002.888
 1 1 0 2
 ```
+
+This output represents the assignment of customers to warehouses:
+```
+- a_0 = {2}
+- a_1 = {0, 1}
+- a_2 = {3}
+```
+That is, customers 0 and 1 are assigned to warehouse 1, customer 2 is assigned to warehouse 0,
+and customer 3 is assigned to warehouse 2
