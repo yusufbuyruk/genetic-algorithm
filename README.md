@@ -48,13 +48,19 @@ The input consists of `|N| + 2|M| + 1` lines. The first line contains two number
 The first line is followed by `|N|` lines, where each line represents a warehouse capacity `cap_w` and setup cost `s_w`.
 
 The last `2|M|` lines capture the customer information. Each customer block begins with a line containing one number, the customer’s demand `d_c`. The following line has `|N|` values, one for each warehouse. These values capture the cost to service that customer from each warehouse, `t_cw`.
-
-### Output Format
-
-The output has two lines:
-
-1. The first line contains one value: *obj*. *obj* is the cost of the customer-warehouse assignment (i.e., the objective value) as a real number.
-2. The second line is a list of `|M|` values in *N* – this represents the mapping of customers to warehouses.
+```
+|N| |M| cap_0 s_0
+cap_1 s_1
+...
+cap_|N|-1 s_|N|-1
+d_0
+t_0_0 t_0_1 t_0_2 ... t_0_|N|-1
+d_1
+t_1_0 t_1_1 t_1_2 ... t_1_|N|-1
+...
+d_|M|-1
+t_|M|-1_0 t_|M|-1_1 t_|M|-1_2 ... t_|M|-1_|N|-1
+```
 
 ### Input Example
 ```
@@ -71,6 +77,18 @@ The output has two lines:
 75
 200.10 200.11 100.12
 ```
+### Output Format
+
+The output has two lines:
+
+1. The first line contains one value: *obj*. *obj* is the cost of the customer-warehouse assignment (i.e., the objective value) as a real number.
+2. The second line is a list of `|M|` values in *N* – this represents the mapping of customers to warehouses.
+
+```
+obj
+c_0 c_1 c_2 ... c_|M|-1
+```
+
 ### Output Example
 ```
 1002.888
